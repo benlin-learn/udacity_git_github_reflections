@@ -1,0 +1,36 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+
+1. ls -a 
+2. git init
+3. git status
+4. git add file_name
+5. git commit
+6. git commit -m “commit message”
+7. git checkout master
+8. git reset --hard 
+9. git branch  
+10. git branch branch_one 
+11. git log --graph --oneline master branch_one 
+12. git checkout -b new_branch
+13. git merge branch_one
+14. git branch -d branch_one
+15. git show commit_id
+16. git merge --abort
